@@ -178,8 +178,8 @@ setState(() {
                           min: 120.0,
                           max: 200.0,
                           activeColor: Color(0xffEB1555),
-                    //    inactiveColor: Color(0xff8D8E98),
-                          inactiveColor: Colors.black,
+                       inactiveColor: Color(0xff8D8E98),
+                        //  inactiveColor: Colors.black,
                           onChanged: (newValue){
                         setState(() {
                           Height = newValue.round() ;
